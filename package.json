@@ -1,0 +1,11 @@
+{
+  "name": "solinbox",
+  "version": "1.0.0",
+  "description": "Getting start with solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abolfazl Panahiazar",
+  "license": "MIT"
+}
