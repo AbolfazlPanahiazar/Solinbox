@@ -21,4 +21,14 @@ const input = {
   },
 };
 
-// export default JSON.parse(solc.compile(JSON.stringify(input))).contracts["Inbox.sol"];
+export const abi = JSON.parse(solc.compile(JSON.stringify(input))).contracts[
+  "Inbox.sol"
+]["Inbox"].abi;
+
+export const evm = JSON.parse(solc.compile(JSON.stringify(input))).contracts[
+  "Inbox.sol"
+]["Inbox"].evm;
+
+export default JSON.parse(solc.compile(JSON.stringify(input))).contracts[
+  "Inbox.sol"
+]["Inbox"];
